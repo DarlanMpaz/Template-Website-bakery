@@ -10,9 +10,8 @@ routes.post('/admin/produto', async (request, response) => {
         descricao,
         detalhes,
         preco,
-        desconto} =  request.body;
+        desconto} = request.body;
 
-    
 
     await connection('produto').insert({
         img,
@@ -22,7 +21,7 @@ routes.post('/admin/produto', async (request, response) => {
         preco,
         desconto   
     })
-    return response.json({titulo});
+    return response.json();
 });
 
 /*routes.get('/admin/produto', (request, response) =>{
