@@ -1,7 +1,7 @@
 
 exports.up = function(knex) {
    knex.schema.createTable('produto', function(table)  {
-    table.string('id').primary();
+    table.increments();
     table.string('img').notNullable();
     table.string('titulo').notNullable();
     table.string('descricao').notNullable();
