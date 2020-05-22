@@ -4,6 +4,7 @@
 :root{
     --main-text-color: rgba(255, 255, 255, 0.7);
     --alter-text-color: rgba(255, 255, 255, 0.5);
+    --third-text-color: rgba(255, 255, 255, 0.3);
     --button-color: #E7C13A;
     --hover-button-color: rgb(179, 150, 46);
     --button-text-color: #272727;
@@ -65,8 +66,22 @@ h1{
     color: var(--button-color);
 }
 
-img{
-    border-radius: 20px;
+h3{
+    font: normal 26pt Roboto, sans-serif;
+    color: var(--main-text-color);
+    font-weight: 600;
+}
+
+h4{
+    font: normal 14pt Roboto, sans-serif;
+    color: var(--alter-text-color);
+    font-weight: 100;
+}
+
+h5{
+    font: normal 10pt Roboto, sans-serif;
+    color: var(--third-text-color);
+    font-weight: 300;
 }
 
 .link:hover{

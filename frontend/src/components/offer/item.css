@@ -1,0 +1,56 @@
+.item{
+    background-color: #202020;
+    max-width: 85%;
+    max-height: 100vh;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    cursor: pointer;
+
+    transition: 0.1s;
+}
+
+.item:hover{
+    opacity: 90%;
+}
+
+.item-img img{
+    max-width: 100%;
+}
+
+.item-title{
+    padding: 2% 5%;
+}
+
+.item-description{
+    padding: 10% 5%;
+}
+
+.item-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+.item-price span{
+    font-weight: 700;
+    color: #61616186;
+}
+
+.discount{
+    background-color: #E7C13A;
+    color: #202020;
+    font-weight: 900;
+    font-size: 12pt;
+    padding: 4px 8px;
+
+    border-radius: 30px;
+}
+
+.discount:hover{
+    opacity: 90%;
+}

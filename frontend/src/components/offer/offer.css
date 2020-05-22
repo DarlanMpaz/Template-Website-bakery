@@ -1,0 +1,27 @@
+.offer{
+    width: 85%;
+    margin: 200px auto;
+}
+
+.grid-items-container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+}
+
+.grid-items-container > div{
+    margin-bottom: 15%;
+    margin-left: 20px;
+}
+
+.item-tittle-image{
+    background: url('../../assets/OFERTAS.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    font-size: 26pt;
+    font-weight: 200;
+    text-align: center;
+}
