@@ -6,7 +6,7 @@
 .grid-items-container{
     justify-content: center;
     display: grid;
-    grid-template-columns: 380px 380px 380px;
+    grid-template-columns: 340px 340px 340px;
 }
 
 .grid-items-container > div{
