@@ -1,0 +1,63 @@
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+
+    display: inline-block;
+
+    text-align: center;
+    padding-top: 10px;
+
+    color: rgba(255, 255, 255, 0.6);    
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.contact-text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: right;
+}
+
+.btn-social{
+    margin: 15px 0;
+}
+
+.url{
+    font-weight: 200;
+    opacity: 60%;
+}
+
+.numbers{
+    margin-top: 30%;
+    width: 60%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+
+    color: rgba(255, 255, 255, 0.6);  
+}
+
+.numbers > div{
+    margin: 5px 0;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+}

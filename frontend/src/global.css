@@ -28,7 +28,7 @@ body{
     background-color: #131313;
 }
 
-.button {
+.button{
     width: 100%;
     height: 40px;
     background-color: var(--button-color);
@@ -39,6 +39,23 @@ body{
     cursor: pointer;
 
     transition: 0.1s;
+}
+
+.button-bordered{
+    background: none;
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    color: var(--button-color);
+    font-weight: var(--font-normal);
+    padding: 3px 8px;
+    cursor: pointer;
+
+    transition: 0.1s;
+}
+
+.button-bordered:hover{
+    border: var(--third-text-color);
+    color: var(--third-text-color);
 }
 
 .button:hover{

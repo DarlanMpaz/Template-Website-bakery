@@ -5,8 +5,6 @@ import style from './about.css';
 import about1 from '../../assets/about1.png';
 import about2 from '../../assets/about2.png';
 
-//import {FaClock, FaMapMarkedAlt, FaPhoneAlt} from 'react-icons/fa';
-
 export default function About(){
     return(
         <div className="about">
